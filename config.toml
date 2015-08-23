@@ -1,0 +1,19 @@
+baseurl = "http://ernestas-poskus.github.io/"
+languageCode = "en-us"
+title = "Ernestas Poškus.io"
+
+[params]
+  Description = "pragmatic & ambitious"
+  Disqus = "ernestasposkusio"
+
+[[menu.social]]
+  url = "https://github.com/ernestas-poskus"
+  name = "github.com/ernestas-poskus"
+
+[[menu.social]]
+  url = "https://twitter.com/ernestas_poskus"
+  name = "twitter.com/ernestas_poskus"
+
+[[menu.social]]
+  url = "https://www.linkedin.com/in/ernestasposkus"
+  name = "linkedin.com/in/ernestasposkus"

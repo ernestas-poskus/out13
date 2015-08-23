@@ -1,0 +1,13 @@
+{{ partial "head.html" . }}
+<div class="row">
+  <div class="large-12 columns">
+    <h1>{{ .Title }}</h1>
+    <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <p><abbr title="Word count">WC</abbr> {{ .WordCount }} / <abbr title="Reading time">RT</abbr> {{ .ReadingTime }}min</p>
+    <hr />
+    {{ .Content }}
+    <hr />
+    {{ partial "disqus.html" . }}
+  </div>
+</div>
+{{ partial "footer.html" . }}

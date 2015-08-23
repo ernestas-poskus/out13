@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+<div class="row">
+  <div class="large-12 columns">
+    <ul class="no-bullet">
+      {{ range .Data.Pages }}
+        <li>
+          <h3>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <small><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></small>
+          </h3>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ partial "footer.html" . }}
