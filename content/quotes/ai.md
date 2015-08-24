@@ -6,4 +6,4 @@ title = "AI"
 
 +++
 
-There is no learning without memory though computer don't know how to learn.
+> There is no learning without memory though computer don't know how to learn.
