@@ -1,4 +1,3 @@
-{{ $baseurl := .Site.BaseURL }}
 <hr />
 <div class="row">
   <div class="large-2 columns">
@@ -10,7 +9,7 @@
     Categories
     <ul class="circle">
       {{ range $name, $value := .Site.Taxonomies.categories }}
-        <li><a href="{{ $baseurl }}/categories/{{ $name | urlize }}">{{ $name }}</a> {{ .Count }}</li>
+        <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a> {{ .Count }}</li>
       {{ end }}
     </ul>
   </div>
@@ -19,7 +18,7 @@
     Tags
     <ul class="circle">
       {{ range $name, $value := .Site.Taxonomies.tags }}
-        <li><a href="{{ $baseurl }}/tags/{{ $name | urlize }}">{{ $name }}</a> {{ .Count }}</li>
+        <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a> {{ .Count }}</li>
       {{ end }}
     </ul>
   </div>
