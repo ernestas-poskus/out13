@@ -2,3 +2,5 @@
 /css/*
 /bower_components/*
 /node_modules/*
+.bowerrc
+README.md
