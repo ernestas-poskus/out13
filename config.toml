@@ -1,6 +1,11 @@
 baseurl = "http://ernestas-poskus.github.io/"
 languageCode = "en-us"
 title = "Ernestas Poškus.io"
+canonifyurls = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [params]
   Description = "pragmatic & ambitious"
