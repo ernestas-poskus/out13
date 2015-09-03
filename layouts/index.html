@@ -1,7 +1,19 @@
 {{ partial "head.html" . }}
-<div class="row">
-  <div class="large-12 columns">
-    {{ range .Data.Pages }}
+<div class="row padding-wrap">
+  <div class="large-7 columns">
+    <h1>General</h1>
+    {{ range where .Data.Pages "Section" "posts"}}
+      <article class="post">
+        <h3>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <small><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></small>
+        </h3>
+      </article>
+    {{ end }}
+  </div>
+  <div class="large-5 columns line-vertical">
+    <h1>Random</h1>
+    {{ range where .Data.Pages "Section" "!=" "posts"}}
       <article class="post">
         <h3>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
