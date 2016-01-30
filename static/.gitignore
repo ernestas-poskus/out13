@@ -1,7 +1,5 @@
-*.DS_Store
-/css/*
-/bower_components/*
-/node_modules/*
-.bowerrc
-README.md
-!tags
+.DS_Store
+bower_components
+node_modules
+npm-debug.log
+css
