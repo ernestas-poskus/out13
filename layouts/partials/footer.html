@@ -1,37 +1,4 @@
 <hr />
-<div class="row">
-  <div class="large-2 columns">
-    <p>Ernestas Poškus {{ with .Site.Params.Description }} {{.}} {{end}}</p>
-    <p><a href="/cv">CV</a></p>
-  </div>
-
-  <div class="large-3 columns">
-    Categories
-    <ul class="circle">
-      {{ range $name, $value := .Site.Taxonomies.categories }}
-        <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a> {{ .Count }}</li>
-      {{ end }}
-    </ul>
-  </div>
-
-  <div class="large-3 columns">
-    Tags
-    <ul class="circle">
-      {{ range $name, $value := .Site.Taxonomies.tags }}
-        <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a> {{ .Count }}</li>
-      {{ end }}
-    </ul>
-  </div>
-
-  <div class="large-4 columns">
-    Social
-    <ul class="circle">
-      {{ range .Site.Menus.social }}
-        <li><a href="{{.URL}}">{{ .Name }}</a></li>
-      {{end}}
-    </ul>
-  </div>
-</div>
 
 <div class="row">
   <div class="large-12 columns">
