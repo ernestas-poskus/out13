@@ -1,8 +1,8 @@
 {{ partial "head.html" . }}
 <body>
-<div class="row">
-  <div class="large-2 columns nav-fixed">
-    <ul class="no-bullet">
+<div class="row" id="content">
+  <div class="large-2 columns" data-sticky-container>
+    <ul class="no-bullet sticky" data-sticky data-anchor="content">
       <li><a href="#cv">#Top</a></li>
       <li><a href="#skills">#Skills</a> </li>
       <li><a href="#experience">#Experience</a></li>
@@ -16,4 +16,8 @@
     {{ .Content }}
   </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script src="{{ .Site.BaseURL }}/js/app.js"></script>
 {{ partial "footer.html" . }}
