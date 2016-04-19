@@ -2,7 +2,7 @@
 {{ partial "callout.html" . }}
 <div class="row">
   <div class="large-12 columns">
-    {{ range where .Data.Pages "Section" "posts"}}
+    {{ range .Data.Pages }}
       <article class="post">
         <h3>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
