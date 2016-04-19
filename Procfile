@@ -1,2 +1,2 @@
-hugo: hugo server --port=1313 --watch
+hugo: hugo server --port=5000 --watch
 assets: cd static && foundation watch
