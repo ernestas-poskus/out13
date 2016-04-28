@@ -1,7 +1,7 @@
 +++
 author = "Stephen Soltesz, Herbert Pötzl, Marc E. Fiuczynski, Andy Bavier, Larry Peterson"
 date = "2016-04-19T19:30:48+03:00"
-description = "Take away from scientific papers, discussion & summarize"
+description = "Take away from scientific papers, discussion & summary"
 link = "http://dl.acm.org/citation.cfm?id=1273025"
 name = "Container-based Operating System Virtualization: A Scalable, High-performance Alternative to Hypervisors"
 tags = ["paper", "learning", "research", "review", "scientific", "software engineering", "operating systems", "container", "performance"]

@@ -1,7 +1,7 @@
 +++
 author = "Gil Einziger, Roy Friedman"
 date = "2016-04-22T21:26:15+03:00"
-description = "Take away from scientific papers, discussion & summarize"
+description = "Take away from scientific papers, discussion & summary"
 link = "http://arxiv.org/pdf/1512.00727.pdf"
 name = "TinyLFU: A Highly Efficient Cache Admission Policy"
 tags = ["paper", "learning", "research", "review", "scientific", "software engineering", "operating systems", "container", "performance"]
