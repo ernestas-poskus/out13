@@ -1,7 +1,7 @@
 +++
 Description = "The Flesch/Flesch–Kincaid Readability Tests are readability tests designed to indicate how difficult a reading passage in English is to understand."
-Tags = ["open-source"]
-Categories = ["development", "golang", "algorithms", "readability", "learning"]
+Tags = []
+Categories = ["golang", "algorithms"]
 date = "2015-04-04T15:13:11+03:00"
 title = "Readability tests"
 

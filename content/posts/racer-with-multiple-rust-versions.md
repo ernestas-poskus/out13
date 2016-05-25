@@ -1,6 +1,6 @@
 +++
 Description = "How to setup Rust racer with multiple or nightly Rust versions"
-Tags = ["blog", "personal", "vim", "how-to", "rust"]
+Categories = ["rust", "vim"]
 date = "2015-09-15T20:43:24+03:00"
 title = "Setup Rust Racer with multiple Rust versions"
 

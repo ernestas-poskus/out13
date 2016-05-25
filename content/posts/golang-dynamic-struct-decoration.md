@@ -1,6 +1,6 @@
 +++
 Description = "Personal findings, thoughts & blog"
-Tags = ["blog", "personal"]
+Categories = ["golang"]
 date = "2016-01-28T20:42:45+02:00"
 title = "Golang dynamic struct decoration"
 
