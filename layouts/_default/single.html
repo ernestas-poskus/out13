@@ -5,6 +5,7 @@
     <h1>{{ .Title }}</h1>
     <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
     <p><abbr title="Word count">WC</abbr> {{ .WordCount }} / <abbr title="Reading time">RT</abbr> {{ .ReadingTime }}min</p>
+    <a class="twitter-share-button"href="https://twitter.com/intent/tweet?text={{printf "%s %s" (substr .Title 0 100) "#out13posts @ernestas_poskus" | safeURL }}">Tweet</a>
     <hr />
     {{ .Content }}
     <hr />
