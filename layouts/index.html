@@ -3,12 +3,14 @@
 <div class="row">
   <div class="large-12 columns">
     {{ range .Data.Pages }}
-      <article class="post">
-        <h3>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          <small><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></small>
-        </h3>
-      </article>
+        {{ if not .Params.private }}
+            <article class="post">
+                <h3>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <small><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></small>
+                </h3>
+            </article>
+        {{ end }}
     {{ end }}
   </div>
 </div>

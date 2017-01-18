@@ -2,6 +2,7 @@ baseurl = "http://out13.com"
 languageCode = "en-us"
 title = "Ernestas Poškus.io"
 canonifyurls = true
+EnableGitInfo = true
 
 [taxonomies]
   category = "categories"
