@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+{{ partial "callout.html" . }}
+<div class="row">
+  <div class="large-12 columns">
+    <h1>{{ .Title }}</h1>
+    <ul>
+      <li>Author: {{ .Params.author }}</li>
+      {{if isset .Params "link"}}
+      <li>Link: <a href="{{ .Params.link }}" rel="nofollow" target="_blank">{{ .Params.link }}</a></li>
+      {{end}}
+      <li>Command: {{ .Params.cmd }}</li>
+      <li>Params: {{ .Params.params }}</li>
+    </ul>
+    <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <p><abbr title="Word count">WC</abbr> {{ .WordCount }} / <abbr title="Reading time">RT</abbr> {{ .ReadingTime }}min</p>
+    <a class="twitter-share-button"href="https://twitter.com/intent/tweet?text={{printf "%s %s" (substr .Title 0 100) "#out13paper @ernestas_poskus" | safeURL }}">Tweet</a>
+    <hr />
+    {{ .Content }}
+    <hr />
+    {{ partial "disqus.html" . }}
+  </div>
+</div>
+{{ partial "footer.html" . }}
