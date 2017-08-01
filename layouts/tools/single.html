@@ -4,12 +4,16 @@
   <div class="large-12 columns">
     <h1>{{ .Title }}</h1>
     <ul>
+      {{if isset .Params "author" }}
       <li>Author: {{ .Params.author }}</li>
+      {{end}}
       {{if isset .Params "link"}}
       <li>Link: <a href="{{ .Params.link }}" rel="nofollow" target="_blank">{{ .Params.link }}</a></li>
       {{end}}
       <li>Command: {{ .Params.cmd }}</li>
+      {{if isset .Params "params" }}
       <li>Params: {{ .Params.params }}</li>
+      {{end}}
     </ul>
     <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
     <p><abbr title="Word count">WC</abbr> {{ .WordCount }} / <abbr title="Reading time">RT</abbr> {{ .ReadingTime }}min</p>
