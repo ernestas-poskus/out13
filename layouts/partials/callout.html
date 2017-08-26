@@ -3,9 +3,11 @@
     <div class="large-12 columns">
       <h1><a href="/">Ernestas Poškus</a></h1>
 
-      <p>
+      <p>Technical blog of Systems Engineer</p>
+
+      <p>|
         {{ range .Site.Menus.social }}
-        <a href="{{.URL}}" target="_blank">{{ index (split .Name ".") 0 }}</a>
+        <a href="{{.URL}}" target="_blank">{{ index (split .Name ".") 0 }}</a> |
         {{end}}
       </p>
 
