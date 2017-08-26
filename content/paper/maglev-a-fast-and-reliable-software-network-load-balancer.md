@@ -2,7 +2,7 @@
 link = "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf"
 name = "Maglev: A Fast and Reliable Software Network Load Balancer"
 author = "Daniel E. Eisenbud, Cheng Yi, Carlo Contavalli, Cody Smith, Roman Kononov, Eric Mann-Hielscher, Ardas Cilingiroglu, Bin Cheyney, Wentao Shang and Jinnah Dylan Hosein"
-tags = ["paper","learning","research","review","scientific","performance"]
+tags = ["paper","learning","research","review","scientific"]
 description = "Take away from scientific papers, discussion & summary"
 date = "2017-06-29T18:11:57+03:00"
 title = "Maglev: A Fast and Reliable Software Network Load Balancer"

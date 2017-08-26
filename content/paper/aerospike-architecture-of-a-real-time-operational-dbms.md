@@ -5,7 +5,6 @@ tags = [
   "research",
   "review",
   "scientific",
-  "database",
 ]
 description = "Take away from scientific papers, discussion & summary"
 link = ""

@@ -11,7 +11,6 @@ tags = [
   "review",
   "scientific",
   "operating systems",
-  "performance",
 ]
 author = "Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels"
 

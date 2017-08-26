@@ -7,7 +7,6 @@ tags = [
   "review",
   "scientific",
   "operating systems",
-  "performance",
 ]
 author = "Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber"
 name = "Bigtable: A Distributed Storage System for Structured Data"

@@ -7,8 +7,6 @@ tags = [
   "research",
   "review",
   "scientific",
-  "cluster",
-  "performance",
 ]
 description = "Take away from scientific papers, discussion & summary"
 link = "https://research.google.com/pubs/pub43438.html"

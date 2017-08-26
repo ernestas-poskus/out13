@@ -4,7 +4,7 @@ date = "2016-04-28T19:50:29+03:00"
 description = "Take away from scientific papers, discussion & summary"
 link = "https://www.cs.berkeley.edu/~alig/papers/mesos.pdf"
 name = "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center"
-tags = ["paper", "learning", "research", "review", "scientific", "performance"]
+tags = ["paper", "learning", "research", "review", "scientific"]
 title = "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center"
 
 +++

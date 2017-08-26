@@ -4,7 +4,6 @@ Categories = ["ansible"]
 Tags = [
   "personal",
   "ansible",
-  "testing",
 ]
 date = "2016-09-25T19:12:59+03:00"
 title = "Testing Ansible on multiple platforms"

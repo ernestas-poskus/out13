@@ -12,8 +12,6 @@ tags = [
   "review",
   "scientific",
   "operating systems",
-  "performance",
-  "cisco",
 ]
 
 +++

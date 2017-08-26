@@ -1,5 +1,5 @@
 +++
-tags = ["linux","operating systems","performance","tools"]
+tags = ["linux","operating systems","tools"]
 description = "Review of performance tools and ways to use them"
 date = "2017-06-28T18:57:58+03:00"
 title = "slabtop - kernel slab cache information in real time"

@@ -4,7 +4,7 @@ title = "In Search of an Understandable Consensus Algorithm"
 link = "https://raft.github.io/raft.pdf"
 name = "In Search of an Understandable Consensus Algorithm"
 author = "Diego Ongaro and John Ousterhout"
-tags = ["paper","learning","research","review","scientific","operating systems","performance"]
+tags = ["paper","learning","research","review","scientific","operating systems"]
 description = "Take away from scientific papers, discussion & summary"
 
 +++

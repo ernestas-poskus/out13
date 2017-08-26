@@ -6,8 +6,6 @@ tags = [
   "learning",
   "review",
   "scientific",
-  "performance",
-  "algorithms",
 ]
 description = "Take away from scientific papers, discussion & summary"
 link = "http://dimacs.rutgers.edu/~graham/pubs/papers/cmsoft.pdf"

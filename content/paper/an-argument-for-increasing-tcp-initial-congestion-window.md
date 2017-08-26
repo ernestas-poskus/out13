@@ -4,7 +4,7 @@ date = "2016-08-04T22:02:54+03:00"
 description = "Take away from scientific papers, discussion & summary"
 link = "http://research.google.com/pubs/pub36640.html"
 name = "An Argument for Increasing TCP’s Initial Congestion Window"
-tags = ["paper", "learning", "research", "review", "scientific", "operating systems", "performance"]
+tags = ["paper", "learning", "research", "review", "scientific", "operating systems"]
 title = "An Argument for Increasing TCP’s Initial Congestion Window"
 
 +++
