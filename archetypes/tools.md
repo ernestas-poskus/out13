@@ -6,4 +6,6 @@ name = ""
 link = ""
 cmd = ""
 params = ""
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = {{ .Date }}
 +++
