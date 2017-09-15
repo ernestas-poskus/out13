@@ -2,7 +2,7 @@
 link = "https://pdfs.semanticscholar.org/8ed9/eb8f7897701726bc4771aa283dd45c143db1.pdf"
 name = "Cooperative Task Management without Manual Stack Management"
 author = "Atul Adya, Jon Howell, Marvin Theimer, William J. Bolosky, John R. Douceur"
-tags = ["paper","learning","research","review","scientific","operating systems"]
+tags = ["paper","learning","research","review","scientific"]
 date = "2017-08-10T21:48:19+03:00"
 title = "Cooperative Task Management without Manual Stack Management"
 description = "Take away from scientific papers, discussion & summary"

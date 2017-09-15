@@ -10,7 +10,6 @@ tags = [
   "research",
   "review",
   "scientific",
-  "operating systems",
 ]
 description = "Take away from scientific papers, discussion & summary"
 

@@ -4,7 +4,7 @@ date = "2016-04-22T21:26:15+03:00"
 description = "Take away from scientific papers, discussion & summary"
 link = "http://arxiv.org/pdf/1512.00727.pdf"
 name = "TinyLFU: A Highly Efficient Cache Admission Policy"
-tags = ["paper", "learning", "research", "review", "scientific", "operating systems"]
+tags = ["paper", "learning", "research", "review", "scientific"]
 title = "Tiny LFU highly efficient cache admission policy"
 
 +++

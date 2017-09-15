@@ -11,7 +11,6 @@ tags = [
   "research",
   "review",
   "scientific",
-  "operating systems",
 ]
 
 +++

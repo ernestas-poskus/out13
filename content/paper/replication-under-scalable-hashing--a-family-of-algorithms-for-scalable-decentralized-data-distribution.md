@@ -6,7 +6,6 @@ tags = [
   "research",
   "review",
   "scientific",
-  "operating systems",
 ]
 author = "R. J. Honicky and Ethan L. Miller"
 date = "2016-11-10T22:27:23+02:00"

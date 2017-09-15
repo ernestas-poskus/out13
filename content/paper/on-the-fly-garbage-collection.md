@@ -6,7 +6,6 @@ tags = [
   "research",
   "review",
   "scientific",
-  "operating systems",
 ]
 author = "Edsger W. Dijkstra, Leslie Lamport, A.J. Martin, C.S. Scholten, E.F.M. Steffens"
 name = "On-the-Fly Garbage Collection: An Exercise in Cooperation "

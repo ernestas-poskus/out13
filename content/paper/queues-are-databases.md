@@ -4,7 +4,7 @@ date = "2016-08-12T16:57:55+03:00"
 description = "Take away from scientific papers, discussion & summary"
 link = "https://arxiv.org/pdf/cs/0701158.pdf"
 name = "Queues Are Databases"
-tags = ["paper", "learning", "research", "review", "scientific", "operating systems"]
+tags = ["paper", "learning", "research", "review", "scientific"]
 title = "Queues Are Databases"
 
 +++

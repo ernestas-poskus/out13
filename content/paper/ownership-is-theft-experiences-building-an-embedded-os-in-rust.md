@@ -8,7 +8,6 @@ tags = [
   "research",
   "review",
   "scientific",
-  "operating systems",
   "rust"
 ]
 author = "Amit Levy, Michael P Andersen, Bradford Campbell, David Culler,Prabal Dutta, Branden Ghena, Philip Levis, Pat Pannuto"

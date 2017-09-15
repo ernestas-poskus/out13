@@ -1,6 +1,6 @@
 +++
 title = "/proc/meminfo - memory usage statistics"
-tags = ["linux","operating systems","tools"]
+tags = ["linux","tools"]
 description = "Review of performance tools and ways to use them"
 link = "http://man7.org/linux/man-pages/man5/proc.5.html"
 name = "/proc/meminfo"
