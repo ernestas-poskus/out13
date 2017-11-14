@@ -1,0 +1,29 @@
+{{ partial "head.html" . }}
+{{ partial "callout.html" . }}
+<div class="row">
+  <div class="large-12 columns">
+    <h1>{{ .Title }}</h1>
+    <ul>
+      {{if isset .Params "man"}}
+      <li><a href="{{ .Params.man }}" rel="nofollow" target="_blank">{{ .Params.man }}</a></li>
+      {{end}}
+    </ul>
+    <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <p><abbr title="Word count">WC</abbr> {{ .WordCount }} / <abbr title="Reading time">RT</abbr> {{ .ReadingTime }}min</p>
+    <a class="twitter-share-button"href="https://twitter.com/intent/tweet?text={{printf "%s %s" (substr .Title 0 100) "#out13posts @ernestas_poskus" | safeURL }}">Tweet</a>
+    <hr />
+    <p>
+      Mnemonics is any learning technique that aids information retention in the human memory.
+      Mnemonics make use of elaborative encoding, retrieval cues, and imagery as specific
+      tools to encode any given information in a way that allows for efficient storage and retrieval.
+      For curious read Tony Buzan books.
+      [<a href="https://en.wikipedia.org/wiki/Mnemonic" target="_blank">wiki</a>]
+    </p>
+    <hr />
+    <h2>{{ .Params.cmd }}</h2>
+    {{ .Content }}
+    <hr />
+    {{ partial "disqus.html" . }}
+  </div>
+</div>
+{{ partial "footer.html" . }}
