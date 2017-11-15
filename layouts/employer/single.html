@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+{{ partial "callout.html" . }}
+<div class="row">
+  <div class="large-12 columns">
+    <h1>{{ .Title }}</h1>
+    <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <p><abbr title="Word count">WC</abbr> {{ .WordCount }} / <abbr title="Reading time">RT</abbr> {{ .ReadingTime }}min</p>
+    <a class="twitter-share-button"href="https://twitter.com/intent/tweet?text={{printf "%s %s" (substr .Title 0 100) "#out13posts @ernestas_poskus" | safeURL }}">Tweet</a>
+    <hr />
+    <p>This is the work I have done for my current employer @ <a rel="nofollow" href="{{ .Params.employer_link }}" target="_blank">{{ .Params.employer }}</a>.</p>
+    <hr />
+    {{ .Content }}
+    <a rel="nofollow" target="_blank" href="{{ .Params.post_link }}">{{ .Params.post_link }}</a>
+    <hr />
+    {{ partial "disqus.html" . }}
+  </div>
+</div>
+{{ partial "footer.html" . }}
