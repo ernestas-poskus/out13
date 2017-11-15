@@ -14,7 +14,7 @@ private = true
 
 ```
 Keen interest in service oriented architecture, massive scalability,
-distributed applications, Search Engines.
+distributed systems, Search Engines.
 ```
 
 ```
@@ -35,6 +35,7 @@ Twitter: <a href="https://twitter.com/ernestas_poskus">@ernestas_poskus</a>
 - https://github.com/AnsibleShipyard release manager/contributor of major Ansible playbooks (Zookeeper, Mesos, Marathon, etc.)
 - https://github.com/linkosmos author of 10+ Golang packages
 - https://github.com/ernestas-poskus/ansible-prometheus Ansible playbook for installing Prometheus monitoring system
+- https://github.com/ernestas-poskus/chef-proxysql Chef cookbook for installing ProxySQL with automatic propagation of on disk configuration
 
 ---------
 
@@ -49,7 +50,8 @@ Twitter: <a href="https://twitter.com/ernestas_poskus">@ernestas_poskus</a>
 ```
 Chef, Ansible & continuous deployment
 Migrated all services to Systemd
-Elasticsearch cluster management, breaking changes upgrading
+Elasticsearch cluster management, breaking changes upgrading: 2.x, 5.x, 6.x
+Cache layer supervision, high availability Memcached cluster using Facebook mcrouter
 ```
 
 ### Backend developer @ [Vinted](http://vinted.com/)
