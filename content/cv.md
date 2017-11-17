@@ -39,6 +39,13 @@ Twitter: <a href="https://twitter.com/ernestas_poskus">@ernestas_poskus</a>
 
 ---------
 
+# <a name="Posts">Posts</a>
+
+- http://engineering.vinted.com/2017/09/18/elasticsearch-more-nodes-with-fewer-servers/ Running 4x instances of Elasticsearch using NUMA
+- http://engineering.vinted.com/2017/06/05/sharding-out-elasticsearch/ scaling Elasticsearch by sharding out using metrics as guidelines
+
+---------
+
 # <a name="experience">Experience</a>
 
 ---------
