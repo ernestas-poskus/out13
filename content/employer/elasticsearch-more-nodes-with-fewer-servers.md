@@ -1,6 +1,6 @@
 +++
 Description = "Posts by Ernestas Poskus for my employer"
-Tags = ["personal", "employer", "elasticsearch"]
+Tags = ["personal", "elasticsearch"]
 title = "Elasticsearch more nodes with fewer servers"
 date = 2017-11-15T19:31:47+02:00
 employer = "Vinted"

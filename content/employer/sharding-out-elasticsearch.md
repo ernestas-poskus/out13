@@ -1,6 +1,6 @@
 +++
 Description = "Posts by Ernestas Poskus for my employer"
-Tags = ["personal", "employer", "elasticsearch"]
+Tags = ["personal", "elasticsearch"]
 title = "Sharding out Elasticsearch"
 date = 2017-11-15T19:21:47+02:00
 employer = "Vinted"
