@@ -1,2 +1,5 @@
 User-agent: *
+
+Sitemap: http://out13.com/sitemap.xml
+
 Disallow: /hugo/
