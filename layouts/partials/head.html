@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>{{ .Title }} - {{ .Site.Title }}</title>
+  {{ if not .Params.disablemeta }}
   <meta name="description" content="{{ .Description }}"/>
   <meta name="keywords" content="{{ delimit .Keywords ", " }}"/>
 
@@ -16,6 +17,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:image" content="{{ .Site.BaseURL }}/images/og-image.png" />
+  {{ end }}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/app.css">

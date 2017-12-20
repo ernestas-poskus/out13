@@ -3,6 +3,7 @@ Description = "Dev experiments by Ernestas Poškus"
 Tags = []
 title = "Testing Vue.js dynamic <head> meta tags"
 date = 2017-12-20T18:50:13+02:00
+disablemeta = true
 +++
 
 Testing Vue.js dynamic <head> meta tags indexability by major search engines.
