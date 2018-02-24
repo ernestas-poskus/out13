@@ -51,7 +51,7 @@ Twitter: <a href="https://twitter.com/ernestas_poskus">@ernestas_poskus</a>
 
 ---------
 
-### Systems Engineer @ [Vinted](http://vinted.com/)
+### SRE @ [Vinted](http://vinted.com/)
 ##### Peer-to-peer marketplace for women and men to sell, buy and swap clothes.
 ###### June 2016 – present
 
@@ -60,6 +60,8 @@ Chef, Ansible & continuous deployment
 Migrated all services to Systemd
 Elasticsearch cluster management, breaking changes upgrading: 2.x, 5.x, 6.x
 Cache layer supervision, high availability Memcached cluster using Facebook mcrouter
+Complete physical hardware automation, automatic registration of all basic
+server resources: CPU, RAM, DISK, NIC, Motherboard.
 ```
 
 ### Backend developer @ [Vinted](http://vinted.com/)
