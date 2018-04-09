@@ -37,6 +37,7 @@ Twitter: <a href="https://twitter.com/ernestas_poskus">@ernestas_poskus</a>
 - https://github.com/ernestas-poskus/ansible-prometheus Ansible playbook for installing Prometheus monitoring system
 - https://github.com/ernestas-poskus/chef-proxysql Chef cookbook for installing ProxySQL with automatic propagation of on disk configuration
 - https://github.com/pagescrape author of Rust crates
+- https://github.com/ernestas-poskus/chef-clickhouse Chef cookbook for installing ClickHouse distributed column-oriented DBMS
 
 ---------
 
