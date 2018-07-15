@@ -58,6 +58,9 @@ Twitter: <a href="https://twitter.com/ernestas_poskus">@ernestas_poskus</a>
 ###### June 2016 – present
 
 ```
+ProxySQL cluster deployment with automatic query rules service
+Elasticsearch segments automatic optimization with merging and expunge
+Junior peers training
 Chef, Ansible & continuous deployment
 Migrated all services to Systemd
 Elasticsearch cluster management, breaking changes upgrading: 2.x, 5.x, 6.x
