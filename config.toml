@@ -23,3 +23,7 @@ EnableGitInfo = true
 [[menu.social]]
   url = "https://www.linkedin.com/in/ernestasposkus"
   name = "linkedin.com/in/ernestasposkus"
+
+[[menu.social]]
+  url = "https://www.goodreads.com/user/show/42270834-ernestas-poskus"
+  name = "goodreads"
