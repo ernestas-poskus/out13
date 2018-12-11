@@ -7,7 +7,7 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   {{ if not .Params.disablemeta }}
   <meta name="description" content="{{ .Description }}"/>
   <meta name="keywords" content="{{ delimit .Keywords ", " }}"/>
