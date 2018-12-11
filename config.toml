@@ -1,6 +1,6 @@
 baseurl = "http://out13.com"
 languageCode = "en-us"
-title = "Ernestas Poškus"
+title = "Ernestas Poškus technical blog"
 canonifyurls = true
 EnableGitInfo = true
 
