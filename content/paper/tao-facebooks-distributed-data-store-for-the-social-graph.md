@@ -7,10 +7,6 @@ name = "TAO: Facebook’s Distributed Data Store for the Social Graph"
 author = "Nathan Bronson, Zach Amsden, George Cabrera, Prasad Chakka, Peter Dimov, Hui Ding, Jack Ferris, Anthony Giardullo, Sachin Kulkarni, Harry Li, Mark Marchukov, Dmitri Petrov, Lovro Puzar, Yee Jiun Song, Venkat Venkataramani"
 tags = [
   "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
 ]
 
 +++
@@ -26,8 +22,8 @@ semantic fit for lists of edges; queries must always fetch
 the entire edge list and changes to a single edge require
 the entire list to be reloaded.
 
-Distributed control logic: In a lookaside cache architecture 
-the control logic is run on clients that don’t communicate 
+Distributed control logic: In a lookaside cache architecture
+the control logic is run on clients that don’t communicate
 with each other. This increases the number of
 failure modes, and makes it difficult to avoid thundering herds.
 
@@ -53,20 +49,20 @@ data.
 
 ### Architecture
 
-TAO needs to handle a far larger volume of data than can be stored on a 
+TAO needs to handle a far larger volume of data than can be stored on a
 single MySQL server, therefore data is divided into logical shards.
 
 ### MySQL mapping
 
-Each shard is assigned to a logical MySQL database 
+Each shard is assigned to a logical MySQL database
 that has a table for objects and a table
-for associations. All of the fields of an object are serialized into a 
+for associations. All of the fields of an object are serialized into a
 single ‘data‘ column. This approach allows
-us to store objects of different types within the same table, 
+us to store objects of different types within the same table,
 Objects that benefit from separate data management
 polices are stored in separate custom tables.
-Associations are stored similarly to objects, but to support 
+Associations are stored similarly to objects, but to support
 range queries, their tables have an additional index
-based on id1, atype, and time. To avoid potentially expensive 
+based on id1, atype, and time. To avoid potentially expensive
 SELECT COUNT queries, association counts
 are stored in a separate table.

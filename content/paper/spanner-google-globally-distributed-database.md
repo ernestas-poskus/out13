@@ -4,7 +4,7 @@ title = "Spanner: Google’s Globally-Distributed Database"
 link = "https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf"
 name = "Spanner: Google’s Globally-Distributed Database"
 author = "James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost, JJ Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan, Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher Taylor, Ruth Wang, Dale Woodford"
-tags = ["paper","learning","research","review","scientific"]
+tags = ["paper"]
 description = "Take away from scientific papers, discussion & summary"
 
 +++

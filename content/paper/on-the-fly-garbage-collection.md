@@ -1,12 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = [
-  "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
-]
+tags = ["paper"]
 author = "Edsger W. Dijkstra, Leslie Lamport, A.J. Martin, C.S. Scholten, E.F.M. Steffens"
 name = "On-the-Fly Garbage Collection: An Exercise in Cooperation "
 link = "http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf"

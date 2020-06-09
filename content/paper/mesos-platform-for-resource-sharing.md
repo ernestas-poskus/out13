@@ -4,7 +4,7 @@ date = "2016-04-28T19:50:29+03:00"
 description = "Take away from scientific papers, discussion & summary"
 link = "https://www.cs.berkeley.edu/~alig/papers/mesos.pdf"
 name = "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center"
-tags = ["paper", "learning", "research", "review", "scientific"]
+tags = ["paper"]
 title = "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center"
 
 +++
@@ -12,7 +12,7 @@ title = "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center"
 ## Platform for resource sharing
 
 > Sharing improves cluster utilization and avoids per-framework data repli-cation
-> Organizations will want to run multiple frameworks in the same cluster, picking the best one for each application. 
+> Organizations will want to run multiple frameworks in the same cluster, picking the best one for each application.
 > Sharing a cluster between frameworks improves utilization and allows applications to share access to large datasets that may be too costly to replicate
 
 ### Architecture

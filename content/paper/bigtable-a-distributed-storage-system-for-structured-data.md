@@ -2,10 +2,6 @@
 description = "Take away from scientific papers, discussion & summary"
 tags = [
   "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
 ]
 author = "Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber"
 name = "Bigtable: A Distributed Storage System for Structured Data"
@@ -49,17 +45,17 @@ Chubby uses the Paxos algorithm to keep its replicas consistent in the face of f
 
 ### Client
 
-The client library caches tablet locations. 
-If the client does not know the location of a tablet, or if it discovers that cached 
+The client library caches tablet locations.
+If the client does not know the location of a tablet, or if it discovers that cached
 location information is incorrect, then it recursively moves up the tablet location hierarchy.
 
 ### Caching
 
-To improve read performance, tablet servers use two levels of caching. 
+To improve read performance, tablet servers use two levels of caching.
 
- - Scan Cache is a higher-level cache that caches the key-value pairs returned by the SSTable interface to the tablet server code. 
+ - Scan Cache is a higher-level cache that caches the key-value pairs returned by the SSTable interface to the tablet server code.
  - Block Cache is a lower-level cache that caches SSTables blocks that were read from GFS.
- 
+
 Bloom filter allows us to ask whether an SSTable might contain any data for a specified row/column pair.
 
 #### Notes

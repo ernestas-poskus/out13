@@ -1,13 +1,7 @@
 +++
 name = "Large-scale cluster management at Google with Borg"
 author = "Abhishek Verma, Luis Pedrosa, Madhukar R. Korupolu, David Oppenheimer, Eric Tune, John Wilkes"
-tags = [
-  "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
-]
+tags = ["paper"]
 description = "Take away from scientific papers, discussion & summary"
 link = "https://research.google.com/pubs/pub43438.html"
 title = "Large-scale cluster management at Google with Borg"

@@ -1,6 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = ["paper", "learning", "research", "review", "scientific"]
+tags = ["paper"]
 author = "Joy Arulraj, Matthew Perron, Andrew Pavlo"
 name = "Write Behind Logging"
 link = "http://www.vldb.org/pvldb/vol10/p337-arulraj.pdf"

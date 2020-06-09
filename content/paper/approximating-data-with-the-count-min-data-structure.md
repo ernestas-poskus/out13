@@ -1,12 +1,7 @@
 +++
 date = "2016-12-29T20:25:26+02:00"
 author = "Graham Cormode, S. Muthukrishnan"
-tags = [
-  "paper",
-  "learning",
-  "review",
-  "scientific",
-]
+tags = ["paper"]
 description = "Take away from scientific papers, discussion & summary"
 link = "http://dimacs.rutgers.edu/~graham/pubs/papers/cmsoft.pdf"
 name = "Approximating Data with the Count-Min Data Structure"

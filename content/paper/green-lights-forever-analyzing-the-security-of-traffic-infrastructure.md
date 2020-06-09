@@ -1,7 +1,7 @@
 +++
 name = "Green Lights Forever: Analyzing the Security of Traffic Infrastructure"
 author = "Branden Ghena, William Beyer, Allen Hillaker, Jonathan Pevarnek, and J. Alex Halderman"
-tags = ["paper","learning","research","review","scientific"]
+tags = ["paper"]
 date = "2017-08-03T19:10:33+03:00"
 title = "Analyzing the Security of Traffic Infrastructure"
 description = "Take away from scientific papers, discussion & summary"

@@ -1,6 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = ["paper", "learning", "research", "review", "scientific"]
+tags = ["paper"]
 author = "Sushant Jain, Alok Kumar, Subhasree Mandal, Joon Ong, Leon Poutievski, Arjun Singh, Subbaiah Venkata, Jim Wanderer, Junlan Zhou, Min Zhu, Jonathan Zolla, Urs Hölzle, Stephen Stuart, Amin Vahdat"
 name = "B4: Experience with a Globally-Deployed Software Defined WAN"
 link = "http://cseweb.ucsd.edu/~vahdat/papers/b4-sigcomm13.pdf"

@@ -1,7 +1,7 @@
 +++
 name = "LIRS: An Efficient Low Inter-reference Recency Set Replacement Policy to Improve Buffer Cache Performance"
 author = "Song Jiang, Xiaodong Zhang"
-tags = ["paper","learning","research","review","scientific"]
+tags = ["paper"]
 description = "Take away from scientific papers, discussion & summary"
 date = "2017-03-09T19:34:52+02:00"
 title = "LIRS: An Efficient Low Inter-reference Recency Set Replacement Policy to Improve Buffer Cache Performance"

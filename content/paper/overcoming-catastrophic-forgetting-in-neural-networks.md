@@ -1,6 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = ["paper", "learning", "research", "review", "scientific"]
+tags = ["paper"]
 author = "James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A. Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, Demis Hassabis, Claudia Clopath b , Dharshan Kumaran, and Raia Hadsell"
 name = "Overcoming catastrophic forgetting in neural networks"
 link = "https://arxiv.org/abs/1612.00796"

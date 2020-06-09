@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@ernestas-poskus:ernestas-poskus/ernestas-poskus.github.io.git
+	branch = master

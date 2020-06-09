@@ -1,6 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = ["paper", "learning", "research", "review", "scientific", "rust"]
+tags = ["paper"]
 author = "Colin S. Gordon, Matthew J. Parkinson, Jared Parsons, Aleks Bromfield, Joe Duffy"
 name = "Uniqueness and Reference Immutability for Safe Parallelism"
 link = "https://www.microsoft.com/en-us/research/publication/uniqueness-and-reference-immutability-for-safe-parallelism/"

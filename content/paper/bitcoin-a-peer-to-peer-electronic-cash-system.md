@@ -1,6 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = ["paper", "learning", "research", "review", "scientific"]
+tags = ["paper"]
 author = "Satoshi Nakamoto"
 name = "Bitcoin: A Peer-to-Peer Electronic Cash System"
 link = "https://bitcoin.org/bitcoin.pdf"

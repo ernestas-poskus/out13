@@ -7,17 +7,13 @@ title = "The Interaction of Buffer Size and TCP Protocol Handling and its Impact
 description = "Take away from scientific papers, discussion & summary"
 tags = [
   "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
 ]
 
 +++
 
 ### Abstract
 
-Miercom was engaged by Cisco Systems to conduct independent testing of two vendors’ top of the line, 
+Miercom was engaged by Cisco Systems to conduct independent testing of two vendors’ top of the line,
 data-center switch-routers, including the Cisco Nexus 92160YC-X and Nexus 9272Q switches and the Arista 7280SE-72 switch.
 
 #### TCP Congestion Control versus System Buffer Management

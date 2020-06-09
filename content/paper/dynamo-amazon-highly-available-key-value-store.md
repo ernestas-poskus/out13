@@ -6,25 +6,21 @@ title = "Dynamo: Amazon’s Highly Available Key-value Store"
 description = "Take away from scientific papers, discussion & summary"
 tags = [
   "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
 ]
 author = "Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels"
 
-+++ 
++++
 
-## Dynamo 
+## Dynamo
 
-Dynamo sacrifices Consistency for Availability under certain failure scenarios. 
+Dynamo sacrifices Consistency for Availability under certain failure scenarios.
 It makes extensive use of object versioning and application-assisted conflict resolution in a manner that provides a novel interface for developers to use.
 
 Gossip based distributed failure detection and membership protocol.
 
 ### Query Model
 
-Read & Write operations to data item that is uniquely identified by a key. 
+Read & Write operations to data item that is uniquely identified by a key.
 State is stored as blobs.
 Targets application that store objects up to 1MB.
 
@@ -36,7 +32,7 @@ No isolation guarantees. Permits only single key updates.
 
 ### Design
 
-Incremental scalability: Dynamo should be able to scale out one storage host (henceforth, referred to as “node”) at a time, 
+Incremental scalability: Dynamo should be able to scale out one storage host (henceforth, referred to as “node”) at a time,
 with minimal impact on both operators of the system and the system itself.
 
 Symmetry: Every node in Dynamo should have the same set of responsibilities as its peers; there should be no distinguished node

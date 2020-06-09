@@ -1,6 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = ["paper", "learning", "research", "review", "scientific"]
+tags = ["paper"]
 author = "Christian Rossow"
 name = "Amplification Hell: Revisiting Network Protocols for DDoS Abuse"
 link = "https://christian-rossow.de/publications/amplification-ndss2014.pdf"

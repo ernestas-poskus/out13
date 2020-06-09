@@ -1,6 +1,6 @@
 +++
 description = "Take away from scientific papers, discussion & summary"
-tags = ["paper", "learning", "research", "review", "scientific", "kernel"]
+tags = ["paper", "kernel"]
 author = "Dmitry Evtyushkin, Dmitry Ponomarev, Nael Abu-Ghazaleh"
 name = "Jump Over ASLR: Attacking Branch Predictors to Bypass ASLR"
 link = "http://www.cs.ucr.edu/~nael/pubs/micro16.pdf"

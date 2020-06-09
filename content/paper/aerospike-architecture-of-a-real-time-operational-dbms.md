@@ -1,11 +1,5 @@
 +++
-tags = [
-  "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
-]
+tags = ["paper"]
 description = "Take away from scientific papers, discussion & summary"
 link = ""
 title = "Aerospike: Architecture of a Real-Time Operational DBMS"

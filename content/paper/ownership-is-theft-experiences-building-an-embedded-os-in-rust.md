@@ -2,14 +2,7 @@
 date = "2016-08-25T20:39:03+03:00"
 title = "Ownership is theft experiences building an embedded os in rust"
 description = "Take away from scientific papers, discussion & summary"
-tags = [
-  "paper",
-  "learning",
-  "research",
-  "review",
-  "scientific",
-  "rust"
-]
+tags = ["paper", "rust"]
 author = "Amit Levy, Michael P Andersen, Bradford Campbell, David Culler,Prabal Dutta, Branden Ghena, Philip Levis, Pat Pannuto"
 name = "Ownership is Theft: Experiences Building an Embedded OS in Rust"
 link = "https://sing.stanford.edu/site/publications/levy-plos15-tock.pdf"

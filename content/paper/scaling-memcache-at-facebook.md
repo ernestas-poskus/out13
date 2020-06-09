@@ -1,5 +1,5 @@
 +++
-tags = ["paper","learning","research","review","scientific"]
+tags = ["paper"]
 description = "Take away from scientific papers, discussion & summary"
 link = "https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf"
 name = "Scaling Memcache at Facebook"

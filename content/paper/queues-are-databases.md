@@ -4,18 +4,18 @@ date = "2016-08-12T16:57:55+03:00"
 description = "Take away from scientific papers, discussion & summary"
 link = "https://arxiv.org/pdf/cs/0701158.pdf"
 name = "Queues Are Databases"
-tags = ["paper", "learning", "research", "review", "scientific"]
+tags = ["paper"]
 title = "Queues Are Databases"
 
 +++
 
 ## Queued transaction processing over pure client-server transaction processing.
 
-Queued systems are build on top of direct systems. 
+Queued systems are build on top of direct systems.
 
 TP systems offer both queued and direct transaction processing. They offer both client-server and P2P direct processing.
 
-Queue manager is best built as a naive resource manager atop an object-relational database system. 
+Queue manager is best built as a naive resource manager atop an object-relational database system.
 That system must have good concurrency control, recovery, triggers, security, operations interfaces, and utilities.
 
 Queues pose difficult problems when implemented atop a database:
