@@ -2,7 +2,7 @@
 {{ partial "callout.html" . }}
 <div class="row">
   <div class="large-12 columns">
-    {{ range .Data.Pages }}
+    {{ range (sort .Site.RegularPages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         {{ if not .Params.private }}
             <article class="post">
                 <h3>
