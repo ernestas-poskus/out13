@@ -1,5 +1,0 @@
-#!/bin/sh
-
-mv public-io public
-hugo
-mv public public-io
