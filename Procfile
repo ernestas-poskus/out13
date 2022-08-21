@@ -1,2 +1,2 @@
-hugo: hugo server --port=5000 --watch
-assets: cd static && foundation watch
+hugo: hugo server --port=3000 --watch
+assets: cd static && yarn start
